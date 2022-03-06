@@ -1,0 +1,243 @@
+/* Copyright 2022. Evander J a.k.a Neal, all rights reserved. */
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap');
+
+
+a {
+  text-decoration: none;
+}
+
+html { /*WEB WALLPAPER*/
+  background-image: url(img/backimage.jpg);
+}
+
+h3 { /*COLORED BORDER FOR SUBSCRIPTION*/
+  display: inline-block;
+
+  font-family: 'Nanum Pen Script', sans-serif;
+
+  border: 1px solid white;
+  background-color: #72DEC6;
+}
+
+/*메인 클래스*/
+#smallTitle {
+  font-size: 30px;
+  font-family: 'Sunflower', sans-serif;
+}
+
+#hashTag {
+  font-size: 15px;
+  font-family: 'Sunflower', sans-serif;
+}
+
+.titleBox { /*FOR TITLE TEXTS THAT NEEDED BOXES*/
+  display: inline-block; /*auto-sizing for text length*/
+  box-sizing:border-box;
+
+  text-align:center;
+  padding-top: 20px; 
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 43%; 
+  margin-right: auto;
+
+  font-family: 'Jua', sans-serif;
+  font-size:50px;
+
+  background-color:#72DEC6;
+  border:4px solid #6667AB;
+
+}
+
+.imgBox { /*FOR SUPPORT IMGS*/
+  display: inline-block; /*auto-sizing for text length*/
+  box-sizing:border-box;
+
+  text-align:right; 
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 35%; 
+  margin-right: auto;
+
+  font-family: 'Nanum Pen Script', sans-serif;
+  font-size:20px;
+
+  background-color:#72DEC6;
+  border:4px solid #6667AB;
+
+}
+
+.vidBox { /*FOR USPPORT VIDS*/
+  display: inline-block; /*auto-sizing for text length*/
+  box-sizing:border-box;
+
+  text-align:right; 
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 26%; 
+  margin-right: auto;
+
+  font-family: 'Nanum Pen Script', sans-serif;
+  font-size:20px;
+
+  background-color:#72DEC6;
+  border:4px solid #6667AB;
+
+}
+
+.serveBox { /*FOR TEXTS THAT NEEDED BOXES*/
+  display: inline-block; /*auto-sizing for text length*/
+  box-sizing:border-box;
+
+  text-align:left;
+  padding-top: 35px; 
+  padding-bottom: 35px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 28%; 
+  margin-right: auto;
+
+  font-family: 'Nanum Pen Script', sans-serif;
+  font-size:25px;
+
+  background-color:#72DEC6;
+  border:4px solid #6667AB;
+
+}
+
+.textBox { /*FOR TEXTS THAT NEEDED BOXES*/
+  display: inline-block; /*auto-sizing for text length*/
+  box-sizing:border-box;
+
+  text-align:center;
+  padding-top: 20px; 
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 32%; 
+  margin-right: auto;
+
+  font-family: 'Nanum Pen Script', sans-serif;
+  font-size:25px;
+
+  background-color:#72DEC6;
+  border:4px solid #6667AB;
+
+}
+
+/*서브클래스*/
+.nextBox { /*FOR NEXT BUTTON*/
+  display: inline-block; /*auto-sizing for text length*/
+  box-sizing:border-box; /*make paddings in box*/
+
+  text-align:center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 32%;
+  margin-right: auto;
+  margin-top: 10px;
+
+  font-family: 'Secular One', sans-serif;
+  font-size:30px;
+  color: #520595;
+
+  background-color:#72DEC6;
+  border:4px solid #6667AB;
+}
+.retry { /*FOR RETRY BUTTON*/
+  display: inline-block; /*auto-sizing for text length*/
+  box-sizing:border-box; /*make paddings in box*/
+
+  text-align:center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 49%;
+  margin-right: auto;
+
+  font-family: 'Secular One', sans-serif;
+  font-size:30px;
+  color: #520595;
+
+  background-color:#72DEC6;
+  border:4px solid #6667AB;
+}
+
+.noBox { /*FOR NEXT BUTTON*/
+  display: inline-block; /*auto-sizing for text length*/
+  box-sizing:border-box; /*make paddings in box*/
+
+  text-align:center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 20px;
+  margin-right: auto;
+  margin-top: 10px;
+
+  font-family: 'Secular One', sans-serif;
+  font-size:30px;
+  color: #520595;
+
+  background-color:#72DEC6;
+  border:4px solid #6667AB;
+}
+
+
+/*개발페이지 전용 클래스*/
+.devPage { /*개발페이지 아이콘*/
+  display: inline-block; /*auto-sizing for text length*/
+  box-sizing:border-box; /*make paddings in box*/
+
+  text-align:center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 192px;
+  margin-right: auto;
+  margin-top: 10px;
+
+  font-family: 'Secular One', sans-serif;
+  font-size:30px;
+  color: #520595;
+
+  background-color:#72DEC6;
+  border:4px solid #6667AB;
+}
+
+.devBox { /*개발페이지 설명 좌정렬되있음*/
+  display: inline-block; /*auto-sizing for text length*/
+  box-sizing:border-box;
+
+  text-align:left;
+  padding-top: 30px; 
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 32%; 
+  margin-right: auto;
+
+  font-family: 'Nanum Pen Script', sans-serif;
+  font-size:20px;
+
+  background-color:#72DEC6;
+  border:4px solid #6667AB;
+
+}
+
+/*그리드용*/
+.container { /*FOR USING GRID*/
+
+
+}
+
+.items { /*FOR USING GRID*/
+
+
+}
