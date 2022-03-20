@@ -54,7 +54,7 @@ h3 { /*COLORED BORDER FOR SUBSCRIPTION*/
 
 }
 
-.imgBox { /*FOR SUPPORT IMGS*/
+.imgBox { /*FOR SUPPORT PHOTOZONE*/
   display: inline-block; /*auto-sizing for text length*/
   box-sizing:border-box;
 
@@ -63,7 +63,7 @@ h3 { /*COLORED BORDER FOR SUBSCRIPTION*/
   padding-bottom: 5px;
   padding-left: 30px;
   padding-right: 30px;
-  margin-left: 35%; 
+  margin-left: 36%; 
   margin-right: auto;
 
   font-family: 'Nanum Pen Script', sans-serif;
@@ -74,7 +74,7 @@ h3 { /*COLORED BORDER FOR SUBSCRIPTION*/
 
 }
 
-.vidBox { /*FOR USPPORT VIDS*/
+.vidBox { /*FOR SPPORT VIDS*/
   display: inline-block; /*auto-sizing for text length*/
   box-sizing:border-box;
 
