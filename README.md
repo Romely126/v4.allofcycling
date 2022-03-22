@@ -1,2 +1,2 @@
-# v4.allofcycling
-beta released on Ver.4
+# b6.allofcycling
+beta released on Ver.
